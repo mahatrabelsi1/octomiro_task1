@@ -1,0 +1,38 @@
+name: octomiro_task
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev.
+
+# Version and build number.
+version: 1.0.0+1
+
+# Flutter SDK compatibility.
+environment:
+  sdk: ^3.6.0
+
+# Dependencies for the app.
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.10.8
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+
+  cupertino_icons: ^1.0.8
+
+# Development dependencies for testing and lints.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Flutter-specific configurations.
+flutter:
+  uses-material-design: true
+
+  # Adding assets like images.
+  assets:
+    - lib/assets/images/logo.png
+    - lib/assets/images/logoS.png
+    - lib/assets/data.json
