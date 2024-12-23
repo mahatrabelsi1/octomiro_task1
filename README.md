@@ -1,16 +1,93 @@
-# octomiro_task
+# **Octomiro Task App**
 
-A new Flutter project.
+### **Project Overview**
+The **Octomiro Task App** is a Flutter-based mobile application designed to simplify inventory management. It features a user-friendly interface for managing inventory documents, generating PDFs, and maintaining user authentication (sign-up and login).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Features**
 
-A few resources to get you started if this is your first Flutter project:
+1. **User Authentication**:
+   - Sign-up page to create an account.
+   - Login page to securely access the application.
+   - Password validation (ensures matching passwords during sign-up).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Inventory Management**:
+   - Displays a list of inventory documents fetched from a JSON file.
+   - Allows users to view details of each document, including:
+     - Document ID
+     - Date
+     - Placement
+     - Organization
+     - Item details (name, code, description, quantity, and creator).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **PDF Generation**:
+   - Users can generate a PDF for any inventory document directly from the app.
+   - PDFs are stored locally on the device for easy access.
+
+4. **Welcome Banner**:
+   - Personalized greeting for the logged-in user, including the current date.
+
+---
+
+## **Technologies Used**
+
+- **Flutter**: Framework for cross-platform mobile app development.
+- **SQLite**: Used for storing and retrieving user data.
+- **Dart**: Programming language for Flutter development.
+- **PDF Package**: For generating PDF documents.
+- **Path Provider**: To save files locally on the device.
+
+---
+
+## **Screenshots**
+
+### **1. Login Page**
+![Login Screen](lib/assets/screens/LogInPage.png)
+- A sleek login page with email and password fields.
+- Includes a button to navigate to the sign-up page.
+
+### **2. Sign-Up Page**
+![Sign-Up Screen](lib/assets/screens/SignUpPage.png)
+- Allows new users to create an account.
+- Features fields for username, email, password, and password confirmation.
+
+### **3. Inventory List Page**
+![Inventory List](lib/assets/screens/InventoryPage.png)
+- Displays a list of inventory documents with details like document ID and date.
+- Includes a "View Details" button for each document.
+
+### **4. Document Details Page**
+![Document Details](lib/assets/screens/DocumentDetails.png)
+- Shows comprehensive details about the selected inventory document.
+- Includes a button to generate a PDF of the document.
+
+### **5. The PDF Generated**
+![PDF page](lib/assets/screens/PdfGenerated.png)
+- Shows the Pdf document genrated .
+
+---
+
+## **Setup Instructions**
+
+Follow these steps to run the app locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd octomiro_task
+
+
+2. **Install Dependencies:**:
+   ```bash
+   flutter pub get
+
+
+
+3. **Run the App:**:
+   ```bash
+   flutter run
+
+
+4. **Using the Emulator:**
+   Ensure you have set up an emulator or connected a physical device.
