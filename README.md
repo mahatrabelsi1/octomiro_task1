@@ -43,21 +43,34 @@ The **Octomiro Task App** is a Flutter-based mobile application designed to simp
 ## **Screenshots**
 
 ### **1. Login Page**
+<<<<<<< HEAD
 ![Login Screen](lib/assets/screens/LogInPage.png)
+=======
+![Login Screen](#)  
+>>>>>>> 9be11f3103006264a8a2a7abd4ee788830146fd6
 - A sleek login page with email and password fields.
 - Includes a button to navigate to the sign-up page.
 
 ### **2. Sign-Up Page**
+<<<<<<< HEAD
 ![Sign-Up Screen](lib/assets/screens/SignUpPage.png)
+=======
+![Sign-Up Screen](#)  
+>>>>>>> 9be11f3103006264a8a2a7abd4ee788830146fd6
 - Allows new users to create an account.
 - Features fields for username, email, password, and password confirmation.
 
 ### **3. Inventory List Page**
+<<<<<<< HEAD
 ![Inventory List](lib/assets/screens/InventoryPage.png)
+=======
+![Inventory List](#)  
+>>>>>>> 9be11f3103006264a8a2a7abd4ee788830146fd6
 - Displays a list of inventory documents with details like document ID and date.
 - Includes a "View Details" button for each document.
 
 ### **4. Document Details Page**
+<<<<<<< HEAD
 ![Document Details](lib/assets/screens/DocumentDetails.png)
 - Shows comprehensive details about the selected inventory document.
 - Includes a button to generate a PDF of the document.
@@ -66,6 +79,12 @@ The **Octomiro Task App** is a Flutter-based mobile application designed to simp
 ![PDF page](lib/assets/screens/PdfGenerated.png)
 - Shows the Pdf document genrated .
 
+=======
+![Login Screen](lib/assets/screenshots/login_screen.png)
+- Shows comprehensive details about the selected inventory document.
+- Includes a button to generate a PDF of the document.
+
+>>>>>>> 9be11f3103006264a8a2a7abd4ee788830146fd6
 ---
 
 ## **Setup Instructions**
